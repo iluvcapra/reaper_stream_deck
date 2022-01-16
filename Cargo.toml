@@ -1,0 +1,12 @@
+[package]
+name = "reaper_stream_deck"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = ["stream_deck_reaper_support", "reaper_stream_deck_plugin"]
+default-members = ["stream_deck_reaper_support", "reaper_stream_deck_plugin"]
+
+[dependencies]
